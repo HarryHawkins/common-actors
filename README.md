@@ -8,7 +8,7 @@ It is very simple to use...
 
 Simply:
 - Install IMDbPY
- `pip3 install IMDbPY`
+ `pip3 install imdbpy`
 - Run the script
     `python3 common-actors.py`
 
