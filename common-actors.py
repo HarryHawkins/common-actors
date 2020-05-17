@@ -41,4 +41,4 @@ if search_results_A and search_results_B:
         if not cast_B:
             print("Cast not found for ",movie_object_A.get('title'))
 
-
+#TODO maybe port to OOP structure, but for now simple enough as a script
