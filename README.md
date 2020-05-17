@@ -1,7 +1,7 @@
 
 # common-actors
 This is a simple Python3 script that returns common actors of 2 movies specified by the user.
-It uses the **IMDbPY** python package.
+It uses the **IMDbPY** python package (https://imdbpy.github.io/)
 I created this script because I couldn't remember the name of an actor, but I could think of 2 movies that he was in. This script found the Actor for me. 
 
 It is very simple to use...
