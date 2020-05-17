@@ -14,11 +14,11 @@ Simply:
 
 Example:
 
-    `user@pc:~/projects/common-actors$ python3 common-actors.py 
+    user@pc:~/projects/common-actors$ python3 common-actors.py 
     Enter your first movie: Kill Bill 1
     Enter your second movie: Pulp fiction
     First movie found:  Kill Bill: Vol. 1
     Second movie found:  Pulp Fiction
     Common actors found  1 : 
-    Uma Thurman`
+    Uma Thurman
 
