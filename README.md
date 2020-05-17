@@ -21,4 +21,17 @@ Example:
     Second movie found:  Pulp Fiction
     Common actors found  1 : 
     Uma Thurman
+    
+    user@pc:~/projects/common-actors$ python3 common-actors.py 
+    Enter your first movie: The matrix
+    Enter your second movie: The matrix 2
+    First movie found:  The Matrix
+    Second movie found:  The Matrix Reloaded
+    Common actors found  6 : 
+    Keanu Reeves
+    Carrie-Anne Moss
+    Nash Edgerton
+    Gloria Foster
+    Laurence Fishburne
+    Hugo Weaving
 
