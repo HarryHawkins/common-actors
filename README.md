@@ -1,12 +1,13 @@
 
 # common-actors
 This is a simple Python3 script that returns common actors movies specified by the user.
-It uses the **IMDbPY** python package.
+It uses the **IMDbPY** python package (https://imdbpy.github.io/)
 I created this script because I couldn't remember the name of an actor, but I could think of some movies that he was in. This script found the Actor for me. 
 
 It is very simple to use...
 
 Simply:
+- Install Python 3
 - Install IMDbPY
  `pip3 install imdbpy`
 - Run the script
@@ -39,6 +40,19 @@ Examples:
     2 Movie found: Kill Bill: Vol. 1
     Common actors found 1: 
     Uma Thurman
+    
+    user@pc:~/projects/common-actors$ python3 common-actors.py 
+    Enter your first movie: The matrix
+    Enter your second movie: The matrix 2
+    First movie found:  The Matrix
+    Second movie found:  The Matrix Reloaded
+    Common actors found  6 : 
+    Keanu Reeves
+    Carrie-Anne Moss
+    Nash Edgerton
+    Gloria Foster
+    Laurence Fishburne
+    Hugo Weaving
 
     user@pc:~/projects/python$ python3 common-actors.py 
     Welcome to common-actors! 
