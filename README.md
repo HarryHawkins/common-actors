@@ -1,8 +1,8 @@
 
 # common-actors
-This is a simple Python3 script that returns common actors of 2 movies specified by the user.
+This is a simple Python3 script that returns common actors movies specified by the user.
 It uses the **IMDbPY** python package.
-I created this script because I couldn't remember the name of an actor, but I could think of 2 movies that he was in. This script found the Actor for me. 
+I created this script because I couldn't remember the name of an actor, but I could think of some movies that he was in. This script found the Actor for me. 
 
 It is very simple to use...
 
@@ -12,13 +12,47 @@ Simply:
 - Run the script
     `python3 common-actors.py`
 
-Example:
+Examples:
 
-    user@pc:~/projects/common-actors$ python3 common-actors.py 
-    Enter your first movie: Kill Bill 1
-    Enter your second movie: Pulp fiction
-    First movie found:  Kill Bill: Vol. 1
-    Second movie found:  Pulp Fiction
-    Common actors found  1 : 
+    user@pc:~/projects/python$ python3 common-actors.py 
+    Welcome to common-actors! 
+    This tool will give you the common actors from a selection of given movies
+
+    How many movies would you like to enter? 3
+    Enter movie number 1: The Matrix
+    Enter movie number 2: The Matrix 2
+    Enter movie number 3: John Wick
+    1 Movie found: The Matrix
+    2 Movie found: The Matrix Reloaded
+    3 Movie found: John Wick
+    Common actors found 1: 
+    Keanu Reeves
+
+    user@pc:~/projects/python$ python3 common-actors.py 
+    Welcome to common-actors! 
+    This tool will give you the common actors from a selection of given movies
+
+    How many movies would you like to enter? 2
+    Enter movie number 1: Pulp Fiction
+    Enter movie number 2: Kill Bill 
+    1 Movie found: Pulp Fiction
+    2 Movie found: Kill Bill: Vol. 1
+    Common actors found 1: 
     Uma Thurman
+
+    user@pc:~/projects/python$ python3 common-actors.py 
+    Welcome to common-actors! 
+    This tool will give you the common actors from a selection of given movies
+
+    How many movies would you like to enter? 3    
+    Enter movie number 1: inception 
+    Enter movie number 2: interstellar
+    Enter movie number 3: dunkirk
+    1 Movie found: Inception
+    2 Movie found: Interstellar
+    3 Movie found: Dunkirk
+    Common actors found 1: 
+    Michael Caine
+
+
 
