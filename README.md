@@ -15,11 +15,11 @@ Simply:
 
 Extra features:
 - Run with `-wiki` flag to automatically open the common actors in wikipedia 
-    `python3 common-actors.py -wiki`
+    ```python3 common-actors.py -wiki```
 
 Examples:
 
-    user@pc:~/projects/python$ python3 common-actors.py 
+    ```user@pc:~/projects/python$ python3 common-actors.py 
     Welcome to common-actors! 
     This tool will give you the common actors from a selection of given movies
 
@@ -31,9 +31,9 @@ Examples:
     2 Movie found: The Matrix Reloaded
     3 Movie found: John Wick
     Common actors found 1: 
-    Keanu Reeves
+    Keanu Reeves```
 
-    user@pc:~/projects/python$ python3 common-actors.py 
+    ```user@pc:~/projects/python$ python3 common-actors.py 
     Welcome to common-actors! 
     This tool will give you the common actors from a selection of given movies
 
@@ -43,9 +43,9 @@ Examples:
     1 Movie found: Pulp Fiction
     2 Movie found: Kill Bill: Vol. 1
     Common actors found 1: 
-    Uma Thurman
+    Uma Thurman```
     
-    user@pc:~/projects/common-actors$ python3 common-actors.py 
+    ```user@pc:~/projects/common-actors$ python3 common-actors.py 
     Enter your first movie: The matrix
     Enter your second movie: The matrix 2
     First movie found:  The Matrix
@@ -56,9 +56,9 @@ Examples:
     Nash Edgerton
     Gloria Foster
     Laurence Fishburne
-    Hugo Weaving
+    Hugo Weaving```
 
-    user@pc:~/projects/python$ python3 common-actors.py 
+    ```user@pc:~/projects/python$ python3 common-actors.py 
     Welcome to common-actors! 
     This tool will give you the common actors from a selection of given movies
 
@@ -70,7 +70,7 @@ Examples:
     2 Movie found: Interstellar
     3 Movie found: Dunkirk
     Common actors found 1: 
-    Michael Caine
+    Michael Caine```
 
 
 
