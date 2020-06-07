@@ -13,6 +13,10 @@ Simply:
 - Run the script
     `python3 common-actors.py`
 
+Extra features:
+- run with -wiki flag to automatically open the common actors in wikipedia 
+    `python3 common-actors.py -wiki`
+
 Examples:
 
     user@pc:~/projects/python$ python3 common-actors.py 
