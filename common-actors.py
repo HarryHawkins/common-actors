@@ -35,7 +35,6 @@ def main():
             missing_result = True
         i +=1
 
-
     if missing_result == False:
         #get ID of each movie and assign to objects (assume first result is the movie wanted)
         movie_IDs = []
