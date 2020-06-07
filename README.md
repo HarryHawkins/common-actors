@@ -14,7 +14,7 @@ Simply:
     `python3 common-actors.py`
 
 Extra features:
-- run with -wiki flag to automatically open the common actors in wikipedia 
+- run with `-wiki` flag to automatically open the common actors in wikipedia 
     `python3 common-actors.py -wiki`
 
 Examples:
