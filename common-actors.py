@@ -1,3 +1,4 @@
+import sys
 from imdb import IMDb
 
 def main():
@@ -69,6 +70,10 @@ def main():
                 print("Common actors found "+ str(len(common_actors))+ ": ")
                 for actor in common_actors:
                     print(actor.get('name'))
+                    if len(sys.argv) > 1:
+                        if sys.argv[1]=='-wiki':
+                            import webbrowser
+                            webbrowser.open('https://en.wikipedia.org/wiki/'+actor.get('name'))  # makes annoying output in CLI, but not much of an issue
             else:
                 print("No common actors")
         else:
