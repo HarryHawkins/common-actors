@@ -27,9 +27,9 @@ Examples:
     Enter movie number 1: The Matrix
     Enter movie number 2: The Matrix 2
     Enter movie number 3: John Wick
-    1 Movie found: The Matrix
-    2 Movie found: The Matrix Reloaded
-    3 Movie found: John Wick
+    Movie 1 found: The Matrix
+    Movie 2 found: The Matrix Reloaded
+    Movie 3 found: John Wick
     Common actors found 1: 
     Keanu Reeves
 
@@ -40,8 +40,8 @@ Examples:
     How many movies would you like to enter? 2
     Enter movie number 1: Pulp Fiction
     Enter movie number 2: Kill Bill 
-    1 Movie found: Pulp Fiction
-    2 Movie found: Kill Bill: Vol. 1
+    Movie 1 found: Pulp Fiction
+    Movie 2 found: Kill Bill: Vol. 1
     Common actors found 1: 
     Uma Thurman
     
@@ -66,9 +66,9 @@ Examples:
     Enter movie number 1: inception 
     Enter movie number 2: interstellar
     Enter movie number 3: dunkirk
-    1 Movie found: Inception
-    2 Movie found: Interstellar
-    3 Movie found: Dunkirk
+    Movie 1 found: Inception
+    Movie 2 found: Interstellar
+    Movie 3 found: Dunkirk
     Common actors found 1: 
     Michael Caine
 
